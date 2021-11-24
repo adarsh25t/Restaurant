@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ea94151992.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Royal Foods</title>
+</head>
+<body>
+    
+<button  id="myBtn" title="Go to top">Top</button>
+<!-- nav-bar section -->
+<header id="Header" class="fixed-top ">
+<div class="container-fluid  ">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/">Royal <span>Food</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item ">
+              <a class="nav-link active" href="#Hero">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#special-menu">Specials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#chef">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               More Details
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#comment-section">Comments</a>
+                <a class="dropdown-item" href="#footer">Footer</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li><li class="nav-item">
+                <a class="nav-link booking" href="#book-table">Book a Table</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+</div>
+</header>
+<!-- Hero section -->
+<section id="Hero">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+            <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+          </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h5><span>Royal</span> Restaurant</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi earum maxime. Laudantium nobis ex recusandae suscipit saepe tempora exercitationem iure accusantium dolorem quasi doloremque provident aperiam veniam totam, adipisci odio facere odit ullam cupiditate praesentium animi nisi. Omnis, sequi.</p>
+                <button>OUR MENU</button> <button>BOOK A TABLE</button>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1622257892554-c162e47a3a5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h5><span>Royal</span> Restaurant</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi earum maxime. Laudantium nobis ex recusandae suscipit saepe tempora exercitationem iure accusantium dolorem quasi doloremque provident aperiam veniam totam, adipisci odio facere odit ullam cupiditate praesentium animi nisi. Omnis, sequi.</p>
+                <button>OUR MENU</button> <button>BOOK A TABLE</button>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1533777419517-3e4017e2e15a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h5><span>Royal</span> Restaurant</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi earum maxime. Laudantium nobis ex recusandae suscipit saepe tempora exercitationem iure accusantium dolorem quasi doloremque provident aperiam veniam totam, adipisci odio facere odit ullam cupiditate praesentium animi nisi. Omnis, sequi.</p>
+                <button>OUR MENU</button> <button>BOOK A TABLE</button>
+            </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</section>
+<main>
+    <!-- About section -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 about-img mt-5">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lcU3pruVyUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                </div>
+                <div class="col-md-7 about-content">
+                    <h1 class="text-center title">About <span>Us</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore, dolor, incidunt quisquam repellendus recusandae mollitia provident id sapiente atque laudantium? Similique minus omnis eius vel magni praesentium dignissimos, quia laborum velit quo veritatis sed ea. Quam perspiciatis beatae voluptate!</p>
+                    <h3> <span><i class="fas fa-check-double"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    <h3> <span><i class="fas fa-check-double"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    <h3> <span><i class="fas fa-check-double"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea doloribus quam maiores veniam, quis alias, necessitatibus quaerat enim autem reprehenderit voluptas eum eveniet ipsam.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h1 class="title text-center">Why choose Our<span> Restaurant</span></h1>
+                    <p class="text-center title-p  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem?Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-deck mt-5">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="card-title">01</div>
+                                <h4>Lorem ipsum dolor </h4>
+                                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem.
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">02</div>
+                                <h4>Lorem ipsum dolor </h4>
+                                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem.
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">03</div>
+                                <h4>Lorem ipsum dolor </h4>
+                                <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section -->
+    <section id="menu">
+        <div class="container mt-5">
+            <h1 class="title text-center">Check our tasty <span>Menu</span></h1>
+            <p class="text-center title-p  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem</p>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="list-group list-group-horizontal d-flex justify-content-center " id="my-tab">
+                        <a href="#All" class="rounded-pill list-group-item list-group-item-action text-center active"
+                            data-toggle="list">Show All</a>
+                        <a href="#Starters" class="rounded-pill list-group-item list-group-item-action text-center"
+                            data-toggle="list">Starters</a>
+                        <a href="#Salads" class="rounded-pill list-group-item list-group-item-action text-center"
+                            data-toggle="list">Salads</a>
+                        <a href="#Speciality" class="rounded-pill list-group-item list-group-item-action text-center"
+                            data-toggle="list">Speciality</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="tab-content mt-5">
+                        <div class="tab-pane active" id="All">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Subway
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$9.2</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>McDonald's.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$11.09</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Starbucks
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$9.98</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Dunkin' Donuts.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$4.11</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Pizza Hut.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$2.33</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Burger King.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$7.45</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Taco Bell.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$5.90</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Wendy's.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$9.32</span>
+                                        </li>
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Pizza Hut.
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$2.98</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Starters">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Dahi Vada
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$9.98</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">                                  <h4>Methi Muthia
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$3.23</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">                                  <h4>Paneer Tikka
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$8.09</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">                                  <h4>Sweet Potato Tikki
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$15.00</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Sabudana Tikki
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge">$9.98</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Salads">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Acar
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$3.66</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Afghan salad
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$3.67</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Ambrosia
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$11.44</span>
+                                        </li>
+                    
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Arab salad
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$12.88</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Speciality">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Aloo gobi
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$4.90</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Aloo tikki
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$11.00</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Aloo matar
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$2.00</span>
+                                        </li>
+                                         <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Aloo methi
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$3.90</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list list-group">
+                                        <li class="d-flex list-group-item d-flex justify-content-between align-items-center">
+                                            <h4>Aloo shimla mirch
+                                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, beatae!</p>
+                                            </h4>
+                                            <span class="badge mb-5">$6.98</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- special menu section -->
+    <section id="special-menu">
+        <div class="container mb-5">
+            <h1 class="title text-center">Check our <span>Specials</span></h1>
+            <p class="text-center title-p  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem</p>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="list-group" id="my-tab-1">
+                        <a href="#chicken1" class="list-group-item list-group-item-action active"  data-toggle="list">CHICKEN POPEYES</a>
+                        <a href="#chicken2" class="list-group-item list-group-item-action"  data-toggle="list">CHICKEN SANDWICH</a>
+                        <a href="#chicken3" class="list-group-item list-group-item-action" data-toggle="list">CHICKEN NUGGETS</a>
+                        <a href="#chicken4" class="list-group-item list-group-item-action"  data-toggle="list" >CHICKEN TENDERS</a>
+                        <a href="#chicken5" class="list-group-item list-group-item-action"  data-toggle="list" >CHICKEN FINGERS</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="chicken1">
+                                <div class="special-tab d-block d-md-flex">
+                                    <div class="">
+                                        <p class="d-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla ipsam deserunt error excepturi unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo, aspernatur recusandae sint nemo doloribus atque officia dolor voluptate sunt soluta ex odit dolores laudantium? Pariatur ad officiis voluptatibus ut.
+                                        </p>
+                                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero ullam tenetur nostrum natus assumenda suscipit quam distinctio nulla corrupti.</p>
+                                    </div>
+                                    <img class="rounded-circle" src="https://fastfood.theringer.com/img/items/4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="chicken2">
+                                <div class="special-tab d-block d-md-flex">
+                                    <div class="">
+                                        <p class="d-block">Lorem,  adipisicing elit. Assumenda nulla ipsam deserunt error excepturi unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo, aspernatur recusandae sint nemo doloribus atque officia dolor voluptate sunt soluta ex odit dolores laudantium? Pariatur ad officiis voluptatibus ut.
+                                        </p>
+                                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero ullam tenetur nostrum natus assumenda suscipit quam distinctio nulla corrupti.</p>
+                                    </div>
+                                    <img class="rounded-circle" src="https://fastfood.theringer.com/img/items/5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="chicken3">
+                                <div class="special-tab d-block d-md-flex">
+                                    <div class="">
+                                        <p class="d-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla ipsam deserunt error excepturi unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo, aspernatur recusandae sint nemo doloribus atque officia dolor voluptate sunt soluta ex odit dolores laudantium? Pariatur ad officiis voluptatibus ut.
+                                        </p>
+                                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero ullam tenetur nostrum natus assumenda suscipit quam distinctio nulla corrupti.</p>
+                                    </div>
+                                    <img class="rounded-circle" src="https://fastfood.theringer.com/img/items/13.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="chicken4">
+                                <div class="special-tab d-block d-md-flex">
+                                    <div class="">
+                                        <p class="d-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla ipsam deserunt error excepturi unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo, aspernatur recusandae sint nemo doloribus atque officia dolor voluptate sunt soluta ex odit dolores laudantium? Pariatur ad officiis voluptatibus ut.
+                                        </p>
+                                        <p class="">Lorem ipsum dolor sit amet Lorem ipsum dolor sit. consectetur adipisicing elit. Perspiciatis vero ullam tenetur nostrum natus assumenda suscipit quam distinctio nulla corrupti.</p>
+                                    </div>
+                                    <img class="rounded-circle" src="https://fastfood.theringer.com/img/items/21.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="chicken5">
+                                <div class="special-tab d-block d-md-flex">
+                                    <div class="">
+                                        <p class="d-block">Lorem, ielit. Assumenda nulla ipsam deserunt error excepturi unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo, aspernatur recusandae sint nemo doloribus atque officia dolor voluptate sunt soluta ex odit dolores laudantium? Pariatur ad officiis voluptatibus ut.
+                                        </p>
+                                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero ullam tenetur nostrum natus assumenda suscipit quam distinctio nulla corrupti.</p>
+                                    </div>
+                                    <img class="rounded-circle" src="https://fastfood.theringer.com/img/items/34.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event section -->
+    <section id="event-section">
+        <div class="shadow"></div>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <h1 class="title text-center text-white pt-5">Organize Your<span>Events</span>in our Restaurant</h1>
+                  <div class="carousel-item active">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption d-block d-md-flex">
+                        <img src="https://images.unsplash.com/photo-1519671282429-b44660ead0a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnQlMjBldmVudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="ml-4">
+                        <h5 class="text-left">Custom Parties</h5>
+                        <h4 class="text-left">$67</h4>
+                        <p class="text-justify">Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet.</p>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-justify bottom-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet molestias asperiores nemo eaque molestiae?</p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption d-block d-md-flex">
+                        <img src="https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJlc3RhdXJhbnQlMjBldmVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="ml-4">
+                        <h5 class="text-left">Custom Parties</h5>
+                        <h4 class="text-left">$67</h4>
+                        <p class="text-justify">Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet.</p>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-justify bottom-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet molestias asperiores nemo eaque molestiae?</p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption d-block d-md-flex">
+                        <img src="https://images.unsplash.com/photo-1528605105345-5344ea20e269?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudCUyMGV2ZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="ml-4">
+                        <h5 class="text-left">Custom Parties</h5>
+                        <h4 class="text-left">$67</h4>
+                        <p class="text-justify">Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet.</p>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3 class="text-left"> <span><i class="far fa-check-circle"></i></i></span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-justify bottom-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas amet molestias asperiores nemo eaque molestiae?</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- book table section -->
+    <section id="book-table">
+        <div class="container mt-5">
+            <h1 class="title text-center">Book a<span> Table</span></h1>
+            <p class="text-center title-p  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem</p>
+        
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <input type="text" name="" id="" class="form-control mt-3" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" name="" id="" class="form-control mt-3" placeholder="You Email">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="password" name="" id="" class="form-control mt-3" placeholder="Your Password">
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <input type="date" name="" id="" class="form-control mt-3" placeholder="Date">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="time" name="" id="" class="form-control mt-3" placeholder="time">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="number" name="" id="" class="form-control mt-3" placeholder="# of people">
+                        </div>
+                    </div>
+                    <textarea name="" id="" cols="20" rows="3" class="form-control mt-3" placeholder="Message"></textarea>
+                    <button class="btn rounded-pill d-block mx-auto mt-4">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section -->
+    <section id="gallery">
+        <div class="container mt-5">
+            <h1 class="title text-center">Some Photos<span> Our Restaurant</span></h1>
+            <p class="text-center title-p  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem</p>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img class="img-fluid mb-3" src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid mb-3" src="https://images.unsplash.com/photo-1485686531765-ba63b07845a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid mb-3" src="https://images.unsplash.com/photo-1551529834-525807d6b4f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid mb-3" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid mt-3" src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="col-md-3 mt-3">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="col-md-3 mt-3">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="col-md-3 mt-3">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1544148103-0773bf10d330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- chefs section -->
+    <section id="chef">
+        <div class="shadow"></div>
+        <div class="container mt-5">
+            <h1 class="title text-center text-white pt-5">Our professional<span>Chefs</span></h1>
+        <p class="text-center title-p  mx-auto text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem</p>
+        
+        <div class="row ">
+            <div class=" col-md-4">
+                <div class="mx-auto" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNoZWZ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="...">
+                    <div class="cards-b">
+                      <h5 class="card-title">Heston Blumenthal</h5>
+                      <p class="card-text text-center">Master Chef</p>
+                      <p class="text-center"><i class="fab fa-twitter"></i><i class="fab fa-invision"></i><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mx-auto" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1614436163996-25cee5f54290?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=442&q=80" class="img-fluid" alt="...">
+                    <div class="cards-b">
+                      <h5 class="card-title">Ferran Adria</h5>
+                      <p class="card-text text-center">Cook</p>
+                      <p class="text-center"><i class="fab fa-twitter"></i><i class="fab fa-invision"></i><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i></p>
+                    </div>
+                  </div>
+            </div>  
+            <div class="col-md-4 ">
+                <div class="mx-auto" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="img-fluid" alt="...">
+                    <div class="cards-b">
+                      <h5 class="card-title">homas Keller</h5>
+                      <p class="card-text text-center">Cook</p>
+                      <p class="text-center"><i class="fab fa-twitter"></i><i class="fab fa-invision"></i><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i></p>
+                    </div>
+                  </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- comments section -->
+    <section id="comment-section">
+        <div class="shadow"></div>
+        <div class="container">
+            <div id="carouselExampleCaption" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaption" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaption" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaption" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleCaption" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption  d-block">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                      <h5>Alexander</h5>
+                      <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae natus dolorem laborum dolore optio eaque nam delectus ab veniam. <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption  d-block">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                      <h5>Charlotte</h5>
+                      <p></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae natus dolorem laborum dolore optio eaque nam delectus ab veniam. <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption  d-block">
+                        <img src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                      <h5>George</h5>
+                      <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae natus dolorem laborum dolore optio eaque nam delectus ab veniam. <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-none w-100" alt="...">
+                    <div class="carousel-caption  d-block">
+                        <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZhY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                      <h5>Harry Potter</h5>
+                      <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae natus dolorem laborum dolore optio eaque nam delectus ab veniam. <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+        <div class="container mt-5">
+            <h1 class="title text-center">Contact<span> Us</span></h1>
+            <p class="text-center title-p  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias harum fuga veniam accusamus quod impedit id est quos dolorem</p>
+        
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="media">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="media-body">
+                                  <h4>Location:</h4>
+                                  <p>
+                                   A108 Adam Street <br>New York,NY 535022
+                                  </p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="media">
+                                <i class="far fa-clock"></i>
+                                <div class="media-body">
+                                  <h4>Open Hourse:</h4>
+                                  <p>
+                                   Monday - Saturday<br>
+                                   11:30 AM - 11:30 PM
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="media">
+                                <i class="far fa-envelope"></i>
+                                <div class="media-body">
+                                  <h4>Email:</h4>
+                                  <p>
+                                    royalfoods@gmail.com<br>
+                                    contact@gmail.com
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="media">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="media-body">
+                                  <h4>Call:</h4>
+                                  <p>
+                                    +43 4561 8764 871<br> 
+                                    +43 3456 8564 435
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="col-md-12">
+                                <input type="text" name="" id="" class="form-control mt-3" placeholder="You Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" name="" id="" class="form-control mt-3" placeholder="Your Email">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="" id="" cols="20" rows="3" class="form-control mt-3" placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn rounded-pill d-block  mt-4 mx-auto mb-3">Send Message</button>
+                        </div>
+                           
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7001448.019483993!2d17.083077133927393!3d64.63235215182546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cadf4b32f6dd%3A0x146d63c75a810!2sFinland!5e0!3m2!1sen!2sin!4v1637137606143!5m2!1sen!2sin"  loading="lazy"></iframe>
+                            </div>
+                        </div>
+                            
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section id="footer">
+        <div class="container pt-5 my-auto">
+            <p class="text-center footer-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita itaque quae earum non error dolores quia quo officia maxime beatae?</p>
+            <div class="footer-icon d-flex justify-content-center">
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""> <i class="fab fa-invision"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-skype"></i></a>
+            </div>
+            <p class="text-center text-white pt-4"><i class="far fa-copyright"></i> Copyright All Rights Reserved</p>
+            <p class="text-center text-white">Designed By <a href="adarsh25t.in">ADARSH T</a></p>
+        </div>
+    </section>
+</main>
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="script.js"></script>
+<script>
+   $().ready(function(){
+       $('#navbarNavDropdown li').on('click',function(){
+           $('#navbarNavDropdown').collapse('toggle')
+       })
+
+    //    $(window).scroll(function(){
+    //        if($(window).scrollTop() >= 100){
+    //         $('#Header').addClass('navbar-scroll')
+    //        }
+    //        else{
+    //         $('#Header').removeClass('navbar-scroll')
+
+    //        }
+    //    })
+
+
+
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.documentElement.scrollTop > 100) {
+            Header.classList.add("navbar-scroll");
+            myBtn.style.display = "block";
+        }
+        else {
+            Header.classList.remove("navbar-scroll");
+            myBtn.style.display = "none";
+        }
+}
+   })
+</script>
+</body>
+</html>
+
